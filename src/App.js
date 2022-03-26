@@ -1,6 +1,6 @@
 import './App.css';
 import QRCode from "react-qr-code";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 
 const Home = () => {
