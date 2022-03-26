@@ -32,9 +32,9 @@ const Home = () => {
    
     <>
       <main className='main-center'>
-      <h1 className='h1'>Ghoomakar Rasoi</h1>
+      <h1 className='h1'>Ghoomakad Rasoi</h1>
       <div  >
-      <QRCode id="QRCode" className='qr-code-box' value={`${window.location.href}ghoomakar-rasoi`} />
+      <QRCode id="QRCode" className='qr-code-box' value={`${window.location.href}ghoomakad-rasoi`} />
       </div>
 
       <input type="button" value="Download QR" onClick={onImageCownload} />
@@ -47,7 +47,7 @@ const RasoiMenu = ()  => {
   return (
     <>
       <main className='rasoi-page'>
-        <h1 className='h1'>Ghoomakar Rasoi Menu</h1>
+        <h1 className='h1'>Ghoomakad Rasoi Menu</h1>
        <img src='/rasoi1.jpg' alt="menu-front"  height={'100%'} width={'100%'}/>
        <img src='/rasoi2.jpg' alt="menu-back"  height={'100%'} width={'100%'}/>
       </main>
@@ -61,7 +61,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="ghoomakar-rasoi" element={<RasoiMenu />} />
+        <Route path="ghoomakad-rasoi" element={<RasoiMenu />} />
       </Routes>
       </BrowserRouter>
     </div>
